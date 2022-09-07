@@ -19,13 +19,13 @@ while True:
 	print("Pressione 'P' para pausar, 'V' para voltar")
 	print("Pressione 'X' para fechar o programa")
 	comando = input(" ")
-	if comando == 'P':
+	if comando in 'Pp':
 		# Pausa a música
 		mixer.music.pause()	
-	elif comando == 'V':
+	elif comando in 'Vv':
 		# Volta a música
 		mixer.music.unpause()
-	elif comando == 'X':
+	elif comando in 'Xx':
 		# Para o mixer
 		mixer.music.stop()
 		break
