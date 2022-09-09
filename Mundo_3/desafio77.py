@@ -1,18 +1,14 @@
 # DESAFIO 077
-# 
+# CRIE UM PROGRAMA QUE TENHA UMA TUPLA COM VÁRIAS PALAVRAS (NÃO USAR ACENTOS). 
+# DEPOIS DISSO, VOCÊ DEVE MOSTRAR, PARA CADA PALAVRA, QUAIS SÃO AS SUAS VOGAIS.
 
-print('\n\033[34m====== DESAFIO 77 ======\n\033[m')
 
-
-frase = """ Crie uma tupla preenchida com os 20 primeiros colocados da Tabela do Campeonato Brasileiro de Futebol, na ordem de colocação. Depois mostre:
-
-a) Os 5 primeiros times.
-
-b) Os últimos 4 colocados.
-
-c) Times em ordem alfabética.
-
-d) Em que posição está o time da Chapecoense.
-"""
-
-print(frase.upper())
+print('\n\033[34m====== DESAFIO 77 ======\033[m')
+palavras = ('aprender','programar','linguagem','python',
+            'curso','gratis','estudar','praticar',
+            'trabalhar','mercado','programador','futuro')
+for n in palavras:
+    print(f'\nNa palavra {n.upper()} temos ', end='')
+    for letra in n:
+        if letra.lower() in 'aeiou':
+            print(letra, end=' ')
