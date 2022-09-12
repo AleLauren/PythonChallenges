@@ -11,7 +11,7 @@ pares = []
 impares = []
 
 while True:
-    valores.append(int(input('Digite um valor:')))
+    valores.append(int(input('Digite um valor: ')))
     resp = str(input('Quer continuar? [S/N] ')).upper()[0]
     if resp == 'N':
         break 
