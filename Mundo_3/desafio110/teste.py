@@ -1,0 +1,11 @@
+# DESAFIO 110
+# ADICIONE O MÓDULO MOEDA.PY CRIADO NOS DESAFIOS ANTERIORES, 
+# UMA FUNÇÃO CHAMADA RESUMO(), QUE MOSTRE NA TELA ALGUMAS INFORMAÇÕES 
+# GERADAS PELAS FUNÇÕES QUE JÁ TEMOS NO MÓDULO CRIADO ATÉ AQUI.
+
+import moeda
+
+print('\n\033[34m====== DESAFIO 110 ======\n\033[m')
+
+p = float(input('Digite o preço: R$'))
+moeda.resumo(p,50,20)
