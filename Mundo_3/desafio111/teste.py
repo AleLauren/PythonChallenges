@@ -1,9 +1,11 @@
 # DESAFIO 111
-# 
+# CRIE UM PACOTE CHAMADO UTILIDADESCEV QUE TENHA DOIS MÓDULOS INTERNOS CHAMADOS MOEDA E DADO. 
+# TRANSFIRA TODAS AS FUNÇÕES UTILIZADAS NOS DESAFIOS 107, 108, 109 E 110 
+# PARA O PRIMEIRO PACOTE E MANTENHA TUDO FUNCIONANDO.
 
 from utilidadescev import moeda, dado
 
-print('\n\033[34m====== DESAFIO 110 ======\n\033[m')
+print('\n\033[34m====== DESAFIO 111 ======\n\033[m')
 
 p = float(input('Digite o preço: R$'))
 moeda.resumo(p,35,22)
