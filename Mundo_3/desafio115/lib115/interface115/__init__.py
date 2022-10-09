@@ -16,7 +16,8 @@ def menu(lista):
         c += 1
     print(linha())
 
-def leiaopcao(msg):
+
+def leiaint(msg):
     while True:
         try:
             n = int(input(msg))
